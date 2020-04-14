@@ -1,12 +1,15 @@
 package com.okstrishch.edu;
 
+import org.junit.Assert;
+import org.junit.Test;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+//import org.testng.Assert;
+//import org.testng.annotations.Test;
+
 
 public class AppTest {
 
-    @Test
+   @Test
     public void testApp() {
         Assert.assertTrue(true);
     }
